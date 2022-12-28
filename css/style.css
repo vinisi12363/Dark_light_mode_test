@@ -1,0 +1,27 @@
+* {
+  font-family: Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #ececde;
+  transition: 0.3s;
+}
+input[type="checkbox"] {
+  display: none;
+}
+
+.top-icons {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.dark,
+.dark_header {
+  background-color: #373737;
+  color: #fff;
+}
